@@ -1,5 +1,7 @@
 package level1;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -11,5 +13,13 @@ public class Main {
         System.out.println(" 5. Cream Mocha   ㅣ💰 5.5 ㅣ 진한 라떼에 수제 크림이 올라간 커피 ");
         System.out.println(" 6. Einspänner    ㅣ💰 5.5 ㅣ 블랙커피 위에 수제 크림이 올라간 커피 ");
         System.out.println(" ____________________________________________________________");
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("원하시는 메뉴의 번호를 선택하십시오.");
+        int num = scanner.nextInt();
+        System.out.println("선택하신 메뉴는 " + num + "번 입니다.");
+
+
     }
 }
