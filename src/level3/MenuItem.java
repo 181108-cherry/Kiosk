@@ -1,11 +1,11 @@
-package level2;
+package level3;
 
 public class MenuItem {
 
     // 속성
-    public String name;
-    public int price;
-    public String detail;
+    String name;
+    int price;
+    String detail;
 
     //생성자
     public MenuItem(String name, int price, String detail) {
